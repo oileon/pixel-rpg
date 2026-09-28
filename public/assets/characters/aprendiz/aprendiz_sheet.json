@@ -1,0 +1,319 @@
+{
+  "character": {
+    "id": "35c3f6d3-5227-4d3f-982f-c382bcc89ce6",
+    "name": "Idle",
+    "prompt": "cute chibi anime young adventurer novice, big head, big sparkling eyes, short spiky chestnut brown hair, simple beginner outfit: cream white tunic with short sleeves, teal blue scarf, orange belt with small pouch, light brown shorts, brown boots, small red backpack on back, cheerful vibrant colors, fantasy MMORPG sprite",
+    "size": {
+      "width": 64,
+      "height": 64
+    },
+    "directions": 8,
+    "view": "low top-down"
+  },
+  "spritesheet": {
+    "path": "aprendiz_sheet.png",
+    "cell_size": {
+      "width": 88,
+      "height": 88
+    },
+    "sheet_size": {
+      "width": 704,
+      "height": 2200
+    },
+    "columns": 8,
+    "pivot": "cell-center",
+    "rows": [
+      {
+        "row": 0,
+        "type": "rotations",
+        "frame_count": 8,
+        "directions": [
+          "south",
+          "south-east",
+          "east",
+          "north-east",
+          "north",
+          "north-west",
+          "west",
+          "south-west"
+        ]
+      },
+      {
+        "row": 1,
+        "type": "animation",
+        "frame_count": 4,
+        "animation": "idle",
+        "animation_group_id": "4d0ad963-1052-40a3-9f32-a0058c3bec64",
+        "direction": "south"
+      },
+      {
+        "row": 2,
+        "type": "animation",
+        "frame_count": 4,
+        "animation": "idle",
+        "animation_group_id": "4d0ad963-1052-40a3-9f32-a0058c3bec64",
+        "direction": "south-east"
+      },
+      {
+        "row": 3,
+        "type": "animation",
+        "frame_count": 4,
+        "animation": "idle",
+        "animation_group_id": "4d0ad963-1052-40a3-9f32-a0058c3bec64",
+        "direction": "east"
+      },
+      {
+        "row": 4,
+        "type": "animation",
+        "frame_count": 4,
+        "animation": "idle",
+        "animation_group_id": "4d0ad963-1052-40a3-9f32-a0058c3bec64",
+        "direction": "north-east"
+      },
+      {
+        "row": 5,
+        "type": "animation",
+        "frame_count": 4,
+        "animation": "idle",
+        "animation_group_id": "4d0ad963-1052-40a3-9f32-a0058c3bec64",
+        "direction": "north"
+      },
+      {
+        "row": 6,
+        "type": "animation",
+        "frame_count": 4,
+        "animation": "idle",
+        "animation_group_id": "4d0ad963-1052-40a3-9f32-a0058c3bec64",
+        "direction": "north-west"
+      },
+      {
+        "row": 7,
+        "type": "animation",
+        "frame_count": 4,
+        "animation": "idle",
+        "animation_group_id": "4d0ad963-1052-40a3-9f32-a0058c3bec64",
+        "direction": "west"
+      },
+      {
+        "row": 8,
+        "type": "animation",
+        "frame_count": 4,
+        "animation": "idle",
+        "animation_group_id": "4d0ad963-1052-40a3-9f32-a0058c3bec64",
+        "direction": "south-west"
+      },
+      {
+        "row": 9,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "walk",
+        "animation_group_id": "672e7e1b-3e05-472b-99ab-21951ba2732a",
+        "direction": "south"
+      },
+      {
+        "row": 10,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "walk",
+        "animation_group_id": "672e7e1b-3e05-472b-99ab-21951ba2732a",
+        "direction": "south-east"
+      },
+      {
+        "row": 11,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "walk",
+        "animation_group_id": "672e7e1b-3e05-472b-99ab-21951ba2732a",
+        "direction": "east"
+      },
+      {
+        "row": 12,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "walk",
+        "animation_group_id": "672e7e1b-3e05-472b-99ab-21951ba2732a",
+        "direction": "north-east"
+      },
+      {
+        "row": 13,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "walk",
+        "animation_group_id": "672e7e1b-3e05-472b-99ab-21951ba2732a",
+        "direction": "north"
+      },
+      {
+        "row": 14,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "walk",
+        "animation_group_id": "672e7e1b-3e05-472b-99ab-21951ba2732a",
+        "direction": "north-west"
+      },
+      {
+        "row": 15,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "walk",
+        "animation_group_id": "672e7e1b-3e05-472b-99ab-21951ba2732a",
+        "direction": "west"
+      },
+      {
+        "row": 16,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "walk",
+        "animation_group_id": "672e7e1b-3e05-472b-99ab-21951ba2732a",
+        "direction": "south-west"
+      },
+      {
+        "row": 17,
+        "type": "animation",
+        "frame_count": 7,
+        "animation": "attack",
+        "animation_group_id": "d3d61456-625d-43f8-99f7-76405698e815",
+        "animation_id": "624e86c5-e90a-4d1a-82ae-8e911fa303c4",
+        "source_frames": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          2
+        ],
+        "direction": "south"
+      },
+      {
+        "row": 18,
+        "type": "animation",
+        "frame_count": 7,
+        "animation": "attack",
+        "animation_group_id": "d3d61456-625d-43f8-99f7-76405698e815",
+        "animation_id": "4d9aba62-e42d-4dd2-b166-a5e994d3d796",
+        "source_frames": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "direction": "south-east"
+      },
+      {
+        "row": 19,
+        "type": "animation",
+        "frame_count": 7,
+        "animation": "attack",
+        "animation_group_id": "d3d61456-625d-43f8-99f7-76405698e815",
+        "animation_id": "ae34eaca-bafb-468f-9795-7b315bcf2593",
+        "source_frames": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "direction": "east"
+      },
+      {
+        "row": 20,
+        "type": "animation",
+        "frame_count": 7,
+        "animation": "attack",
+        "animation_group_id": "d3d61456-625d-43f8-99f7-76405698e815",
+        "animation_id": "37b4d6d6-45ba-45ad-a4d8-51f5dc133b91",
+        "source_frames": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "direction": "north-east"
+      },
+      {
+        "row": 21,
+        "type": "animation",
+        "frame_count": 7,
+        "animation": "attack",
+        "animation_group_id": "d3d61456-625d-43f8-99f7-76405698e815",
+        "animation_id": "e7236729-3bc0-4a7e-bece-9bf6d86155fb",
+        "source_frames": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "direction": "north"
+      },
+      {
+        "row": 22,
+        "type": "animation",
+        "frame_count": 7,
+        "animation": "attack",
+        "animation_group_id": "d3d61456-625d-43f8-99f7-76405698e815",
+        "animation_id": "509a310a-d0ef-492e-aa58-bcab8252d0e2",
+        "source_frames": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "direction": "north-west"
+      },
+      {
+        "row": 23,
+        "type": "animation",
+        "frame_count": 7,
+        "animation": "attack",
+        "animation_group_id": "d3d61456-625d-43f8-99f7-76405698e815",
+        "animation_id": "1c6831fd-c772-48f1-926d-67e2779b3498",
+        "source_frames": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "direction": "west"
+      },
+      {
+        "row": 24,
+        "type": "animation",
+        "frame_count": 7,
+        "animation": "attack",
+        "animation_group_id": "d3d61456-625d-43f8-99f7-76405698e815",
+        "animation_id": "6ba422df-5d55-4ca5-94a8-551c86ee554b",
+        "source_frames": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "direction": "south-west"
+      }
+    ],
+    "feet_y": 74,
+    "notes": "Rebuilt 2026-09-27: walk SE/E/W/SW and idle S/SE/E/W/SW regenerated in v3; every cell shifted vertically so the lowest opaque pixel is at y=74 (no rescale). 2026-09-28: rows 17-24 = attack (v3 punch, group d3d61456-625d-43f8-99f7-76405698e815); each direction shifted by its frame 0 so the reference pose has feet at y=74."
+  },
+  "export_version": "1.0",
+  "export_date": "2026-09-27T16:53:11.093317+00:00"
+}

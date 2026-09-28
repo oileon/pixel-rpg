@@ -1,0 +1,27 @@
+{
+    "image":  "object.png",
+    "pixellabId":  "904a3539-ef36-4e16-a54f-9fbd0c913942",
+    "width":  32,
+    "height":  32,
+    "opaqueBounds":  {
+                         "y1":  26,
+                         "x0":  2,
+                         "x1":  29,
+                         "y0":  6
+                     },
+    "pivot":  {
+                  "y":  26,
+                  "x":  16
+              },
+    "origin":  {
+                   "y":  0.8125,
+                   "x":  0.5
+               },
+    "footprintTiles":  {
+                           "h":  1,
+                           "w":  1
+                       },
+    "blocking":  true,
+    "occludes":  false,
+    "note":  "Pedregulho baixo com musgo (variacao B)."
+}

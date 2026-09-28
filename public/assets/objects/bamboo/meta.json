@@ -1,0 +1,27 @@
+{
+    "image": "object.png",
+    "pixellabId": "43a3eeea-c216-4753-9870-41e91df41bff",
+    "width": 64,
+    "height": 96,
+    "opaqueBounds": {
+        "x0": 6,
+        "y0": 3,
+        "x1": 56,
+        "y1": 91
+    },
+    "pivot": {
+        "x": 31,
+        "y": 89
+    },
+    "origin": {
+        "x": 0.4844,
+        "y": 0.9271
+    },
+    "footprintTiles": {
+        "w": 1,
+        "h": 1
+    },
+    "blocking": true,
+    "occludes": true,
+    "note": "Moita de bambu alta (~3 tiles de altura); copa cobre o jogador que passa atras."
+}

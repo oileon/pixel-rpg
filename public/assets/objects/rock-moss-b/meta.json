@@ -1,0 +1,27 @@
+{
+    "image": "object.png",
+    "pixellabId": "19b7ff2b-0ea4-4d44-944c-95433eee72ef",
+    "width": 32,
+    "height": 32,
+    "opaqueBounds": {
+        "x0": 4,
+        "y0": 5,
+        "x1": 27,
+        "y1": 26
+    },
+    "pivot": {
+        "x": 16,
+        "y": 24
+    },
+    "origin": {
+        "x": 0.5,
+        "y": 0.75
+    },
+    "footprintTiles": {
+        "w": 1,
+        "h": 1
+    },
+    "blocking": true,
+    "occludes": false,
+    "note": "Pedrinha com musgo e samambaias (var. B, baixa)."
+}

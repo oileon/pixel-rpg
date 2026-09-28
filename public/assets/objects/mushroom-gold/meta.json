@@ -1,0 +1,27 @@
+{
+    "image": "object.png",
+    "pixellabId": "ade5cbc2-de72-40e2-826f-fdc67044c224",
+    "width": 48,
+    "height": 48,
+    "opaqueBounds": {
+        "x0": 7,
+        "y0": 3,
+        "x1": 40,
+        "y1": 44
+    },
+    "pivot": {
+        "x": 24,
+        "y": 42
+    },
+    "origin": {
+        "x": 0.5,
+        "y": 0.875
+    },
+    "footprintTiles": {
+        "w": 1,
+        "h": 1
+    },
+    "blocking": false,
+    "occludes": false,
+    "note": "Trio de cogumelos dourados pequenos; decoracao pisavel."
+}

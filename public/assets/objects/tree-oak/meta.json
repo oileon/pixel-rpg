@@ -1,0 +1,27 @@
+{
+    "image":  "object.png",
+    "pixellabId":  "dcd753bd-2db1-4d1b-ab45-6789c5911f35",
+    "width":  64,
+    "height":  80,
+    "opaqueBounds":  {
+                         "y1":  74,
+                         "x0":  4,
+                         "x1":  60,
+                         "y0":  5
+                     },
+    "pivot":  {
+                  "y":  72,
+                  "x":  32
+              },
+    "origin":  {
+                   "y":  0.9,
+                   "x":  0.5
+               },
+    "footprintTiles":  {
+                           "h":  1,
+                           "w":  1
+                       },
+    "blocking":  true,
+    "occludes":  true,
+    "note":  "Pivo = base do tronco. Colisao so no tile do tronco; copa passa por cima do jogador (depth por Y do pivo)."
+}

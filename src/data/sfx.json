@@ -1,0 +1,37 @@
+{
+  "hit": [
+    { "wave": "noise", "ms": 50, "gain": 0.45, "filter": { "type": "lowpass", "freq": 2400 } },
+    { "wave": "square", "freq": [220, 110], "ms": 60, "gain": 0.2 }
+  ],
+  "crit": [
+    { "wave": "noise", "ms": 80, "gain": 0.55, "filter": { "type": "lowpass", "freq": 3200 } },
+    { "wave": "square", "freq": [440, 150], "ms": 110, "gain": 0.25 },
+    { "wave": "triangle", "freq": [880, 1320], "ms": 90, "gain": 0.2, "delayMs": 25 }
+  ],
+  "miss": [
+    { "wave": "noise", "ms": 120, "gain": 0.18, "attackMs": 30, "filter": { "type": "highpass", "freq": 1800 } }
+  ],
+  "hurt": [
+    { "wave": "sawtooth", "freq": [180, 90], "ms": 140, "gain": 0.22 },
+    { "wave": "noise", "ms": 60, "gain": 0.25, "filter": { "type": "lowpass", "freq": 1400 } }
+  ],
+  "monsterDeath": [
+    { "wave": "square", "freq": [520, 80], "ms": 260, "gain": 0.18 },
+    { "wave": "noise", "ms": 180, "gain": 0.2, "delayMs": 30, "filter": { "type": "lowpass", "freq": 1200 } }
+  ],
+  "pickupItem": [
+    { "wave": "triangle", "freq": [660, 990], "ms": 70, "gain": 0.22 },
+    { "wave": "triangle", "freq": [990, 990], "ms": 80, "gain": 0.18, "delayMs": 60 }
+  ],
+  "coin": [
+    { "wave": "square", "freq": [1320, 1320], "ms": 50, "gain": 0.1 },
+    { "wave": "square", "freq": [1760, 1760], "ms": 120, "gain": 0.1, "delayMs": 50 }
+  ],
+  "levelUp": [
+    { "wave": "triangle", "freq": [523, 523], "ms": 120, "gain": 0.22 },
+    { "wave": "triangle", "freq": [659, 659], "ms": 120, "gain": 0.22, "delayMs": 90 },
+    { "wave": "triangle", "freq": [784, 784], "ms": 120, "gain": 0.22, "delayMs": 180 },
+    { "wave": "triangle", "freq": [1047, 1047], "ms": 320, "gain": 0.24, "delayMs": 270 },
+    { "wave": "square", "freq": [1047, 1568], "ms": 200, "gain": 0.06, "delayMs": 270 }
+  ]
+}

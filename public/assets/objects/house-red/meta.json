@@ -1,0 +1,31 @@
+{
+    "image":  "object.png",
+    "pixellabId":  "d3a52112-3259-429f-b2df-69107137850b",
+    "width":  192,
+    "height":  160,
+    "opaqueBounds":  {
+                         "y1":  147,
+                         "x0":  12,
+                         "x1":  179,
+                         "y0":  7
+                     },
+    "pivot":  {
+                  "y":  147,
+                  "x":  96
+              },
+    "origin":  {
+                   "y":  0.919,
+                   "x":  0.5
+               },
+    "footprintTiles":  {
+                           "h":  3,
+                           "w":  5
+                       },
+    "doorOffsetPx":  {
+                         "y":  147,
+                         "x":  96
+                     },
+    "blocking":  true,
+    "occludes":  true,
+    "note":  "Telhado vermelho. Parede frontal ~y82-147 (2 tiles), telhado ~y7-82. Colisao: 5x3 tiles alinhados pela base; o topo do telhado (~1.4 tile) fica acima da colisao e cobre o jogador."
+}

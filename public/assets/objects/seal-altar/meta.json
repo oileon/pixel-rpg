@@ -1,0 +1,27 @@
+{
+    "image": "object.png",
+    "pixellabId": "742d41be-c4bb-4a5c-8c6c-649b1238b6eb",
+    "width": 80,
+    "height": 64,
+    "opaqueBounds": {
+        "x0": 7,
+        "y0": 2,
+        "x1": 72,
+        "y1": 61
+    },
+    "pivot": {
+        "x": 40,
+        "y": 59
+    },
+    "origin": {
+        "x": 0.5,
+        "y": 0.9219
+    },
+    "footprintTiles": {
+        "w": 2,
+        "h": 1
+    },
+    "blocking": true,
+    "occludes": false,
+    "note": "Mesa/altar da Seladora: toalha roxa, selos, tinteiro, pergaminho e vela. NPC fica atras (norte) ou ao lado."
+}

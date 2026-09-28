@@ -1,0 +1,27 @@
+{
+    "image": "object.png",
+    "pixellabId": "3b603e96-0d50-4e48-8f00-25126c65d8bd",
+    "width": 64,
+    "height": 80,
+    "opaqueBounds": {
+        "x0": 6,
+        "y0": 7,
+        "x1": 57,
+        "y1": 72
+    },
+    "pivot": {
+        "x": 32,
+        "y": 70
+    },
+    "origin": {
+        "x": 0.5,
+        "y": 0.875
+    },
+    "footprintTiles": {
+        "w": 1,
+        "h": 1
+    },
+    "blocking": true,
+    "occludes": true,
+    "note": "Cogumelo gigante turquesa luminoso."
+}

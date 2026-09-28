@@ -1,0 +1,31 @@
+{
+    "image":  "object.png",
+    "pixellabId":  "1fa0db75-ee30-434e-a196-169e2d869b67",
+    "width":  160,
+    "height":  160,
+    "opaqueBounds":  {
+                         "y1":  123,
+                         "x0":  22,
+                         "x1":  137,
+                         "y0":  16
+                     },
+    "pivot":  {
+                  "y":  123,
+                  "x":  80
+              },
+    "origin":  {
+                   "y":  0.769,
+                   "x":  0.5
+               },
+    "footprintTiles":  {
+                           "h":  2,
+                           "w":  4
+                       },
+    "doorOffsetPx":  {
+                         "y":  123,
+                         "x":  80
+                     },
+    "blocking":  true,
+    "occludes":  true,
+    "note":  "Telhado azul. Chao (grama/caminho) embutido pelo gerador foi removido manualmente; ha area transparente abaixo de y=123. Colisao 4x2 pela base."
+}

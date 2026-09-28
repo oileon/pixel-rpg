@@ -1,0 +1,97 @@
+[
+  {
+    "id": "maca_do_ceu",
+    "iconColor": "#e8434f",
+    "name": "Maçã-do-Céu",
+    "description": "Maçã leve que cresce nas bordas das ilhas. Recupera 15 de HP.",
+    "type": "consumable",
+    "rarity": "common",
+    "maxStack": 99,
+    "sellPrice": 3,
+    "effect": { "hp": 15 }
+  },
+  {
+    "id": "tonico_frutas",
+    "iconColor": "#ff8a5c",
+    "name": "Tônico de Frutas",
+    "description": "Mistura doce de frutas das ilhas. Recupera 40 de HP.",
+    "type": "consumable",
+    "rarity": "common",
+    "maxStack": 99,
+    "sellPrice": 12,
+    "effect": { "hp": 40 }
+  },
+  {
+    "id": "cha_de_nuvem",
+    "iconColor": "#7fc8ff",
+    "name": "Chá de Nuvem",
+    "description": "Chá aromático colhido no vapor das nuvens. Recupera 15 de SP.",
+    "type": "consumable",
+    "rarity": "uncommon",
+    "maxStack": 99,
+    "sellPrice": 20,
+    "effect": { "sp": 15 }
+  },
+  {
+    "id": "geleia_pessego",
+    "iconColor": "#ffb59a",
+    "name": "Geleia de Pêssego",
+    "description": "Pedacinho gelatinoso deixado por um Pomi. Cheira a fruta.",
+    "type": "material",
+    "rarity": "common",
+    "maxStack": 99,
+    "sellPrice": 2
+  },
+  {
+    "id": "pena_nuvem",
+    "iconColor": "#eef6ff",
+    "name": "Pena de Nuvem",
+    "description": "Pena macia de Plumito, quase sem peso.",
+    "type": "material",
+    "rarity": "common",
+    "maxStack": 99,
+    "sellPrice": 4
+  },
+  {
+    "id": "placa_musgo",
+    "iconColor": "#6c9a4a",
+    "name": "Placa de Musgo",
+    "description": "Fragmento do casco de um Cascudo, ainda com musgo vivo.",
+    "type": "material",
+    "rarity": "common",
+    "maxStack": 99,
+    "sellPrice": 7
+  },
+  {
+    "id": "cristal_flutuante",
+    "iconColor": "#9be7ff",
+    "name": "Cristal Flutuante",
+    "description": "Cristal que insiste em flutuar. Dizem que é o que mantém as ilhas no céu.",
+    "type": "material",
+    "rarity": "rare",
+    "maxStack": 99,
+    "sellPrice": 150
+  },
+  {
+    "id": "adaga_treino",
+    "iconColor": "#c9ced6",
+    "name": "Adaga de Treino",
+    "description": "Adaga simples entregue a todo Aprendiz.",
+    "type": "equipment",
+    "rarity": "common",
+    "maxStack": 1,
+    "sellPrice": 10,
+    "equip": { "slot": "weapon", "weaponType": "melee", "atk": 12, "requiredLevel": 1, "sealSlots": 1 }
+  },
+  {
+    "id": "colete_lona",
+    "iconColor": "#b08a5a",
+    "name": "Colete de Lona",
+    "description": "Colete reforçado com placas de musgo. Leve e resistente.",
+    "type": "equipment",
+    "rarity": "uncommon",
+    "maxStack": 1,
+    "sellPrice": 80,
+    "equip": { "slot": "armor", "def": 6, "stats": { "vit": 1 }, "requiredLevel": 3, "sealSlots": 1 }
+  }
+]

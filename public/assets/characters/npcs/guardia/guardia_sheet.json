@@ -1,0 +1,110 @@
+{
+  "character": {
+    "id": "859a1943-6661-4ad8-b741-42509dbb2539",
+    "name": "Idle",
+    "prompt": "cute chibi anime serene shrine guardian woman, big head, big calm open eyes, soft smile, long silver-white hair, light cream and pale sky-blue flowing mantle with hood down, white feather collar and soft fur trim on shoulders, small animal-spirit feather ornaments in hair, holding a tall wooden staff topped with a glowing teal crystal and white feathers, sandals, gentle luminous vibrant colors, fantasy MMORPG town NPC sprite",
+    "size": {
+      "width": 64,
+      "height": 64
+    },
+    "directions": 8,
+    "view": "low top-down"
+  },
+  "spritesheet": {
+    "path": "guardia_sheet.png",
+    "cell_size": {
+      "width": 88,
+      "height": 88
+    },
+    "sheet_size": {
+      "width": 704,
+      "height": 792
+    },
+    "columns": 8,
+    "pivot": "cell-center",
+    "feet_y": 74,
+    "notes": "Linha 0 = rotacoes; linhas 1-8 = idle na ordem das direcoes. east (rotacao e idle) = west espelhado (a rotacao east gerada perdeu o cajado). north-east/north/north-west = rotacao estatica repetida 4x. Pes (pixel opaco mais baixo) em y=74.",
+    "rows": [
+      {
+        "row": 0,
+        "type": "rotations",
+        "frame_count": 8,
+        "directions": [
+          "south",
+          "south-east",
+          "east",
+          "north-east",
+          "north",
+          "north-west",
+          "west",
+          "south-west"
+        ]
+      },
+      {
+        "row": 1,
+        "type": "animation",
+        "frame_count": 4,
+        "animation": "idle",
+        "direction": "south",
+        "animation_group_id": "ebb18e66-b1bb-4c41-9467-f2c924fc0124"
+      },
+      {
+        "row": 2,
+        "type": "animation",
+        "frame_count": 4,
+        "animation": "idle",
+        "direction": "south-east",
+        "animation_group_id": "ebb18e66-b1bb-4c41-9467-f2c924fc0124"
+      },
+      {
+        "row": 3,
+        "type": "animation",
+        "frame_count": 4,
+        "animation": "idle",
+        "direction": "east",
+        "animation_group_id": "ebb18e66-b1bb-4c41-9467-f2c924fc0124",
+        "mirrored_from": "west"
+      },
+      {
+        "row": 4,
+        "type": "animation",
+        "frame_count": 4,
+        "animation": "idle",
+        "direction": "north-east",
+        "static": true
+      },
+      {
+        "row": 5,
+        "type": "animation",
+        "frame_count": 4,
+        "animation": "idle",
+        "direction": "north",
+        "static": true
+      },
+      {
+        "row": 6,
+        "type": "animation",
+        "frame_count": 4,
+        "animation": "idle",
+        "direction": "north-west",
+        "static": true
+      },
+      {
+        "row": 7,
+        "type": "animation",
+        "frame_count": 4,
+        "animation": "idle",
+        "direction": "west",
+        "animation_group_id": "ebb18e66-b1bb-4c41-9467-f2c924fc0124"
+      },
+      {
+        "row": 8,
+        "type": "animation",
+        "frame_count": 4,
+        "animation": "idle",
+        "direction": "south-west",
+        "animation_group_id": "ebb18e66-b1bb-4c41-9467-f2c924fc0124"
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "image":  "object.png",
+    "pixellabId":  "55b7e330-d810-47dc-974e-dfeae668abf4",
+    "width":  96,
+    "height":  96,
+    "opaqueBounds":  {
+                         "y1":  89,
+                         "x0":  2,
+                         "x1":  93,
+                         "y0":  2
+                     },
+    "footprintTiles":  {
+                           "h":  3,
+                           "w":  3
+                       },
+    "blocking":  false,
+    "note":  "Ponte VERTICAL (corre norte-sul) com postes e cordas, 3x3 tiles. Nao tileavel. Gerada como tentativa 2 da ponte horizontal (saiu na orientacao errada); guardada para travessias N-S."
+}

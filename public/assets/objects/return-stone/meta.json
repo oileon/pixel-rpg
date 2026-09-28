@@ -1,0 +1,31 @@
+{
+    "image": "object.png",
+    "pixellabId": "ac667799-7801-4243-8088-fe0f9d6866a4",
+    "width": 64,
+    "height": 96,
+    "opaqueBounds": {
+        "x0": 10,
+        "y0": 2,
+        "x1": 53,
+        "y1": 92
+    },
+    "pivot": {
+        "x": 32,
+        "y": 90
+    },
+    "origin": {
+        "x": 0.5,
+        "y": 0.9375
+    },
+    "footprintTiles": {
+        "w": 2,
+        "h": 1
+    },
+    "blocking": true,
+    "occludes": true,
+    "note": "Pedra de Retorno. object.png = inativa (runa apagada, azul-ardosia); object-active.png = ativada (runa ciano brilhante + halo de 1px). Mesmo tamanho/pivo: trocar a textura ao ativar. Obelisco flutua ~8px acima da base; um bob de 1-2px so no topo exigiria recorte (y<60).",
+    "states": {
+        "inactive": "object.png",
+        "active": "object-active.png"
+    }
+}

@@ -1,0 +1,33 @@
+[
+  {
+    "id": "mercador",
+    "name": "Mercador",
+    "lines": [
+      "Bem-vindo à Vila Brisa! Tudo o que o vento traz, eu vendo.",
+      "Poções, frutas do céu, umas bugigangas das ilhas vizinhas... e compro o que você trouxer dos campos."
+    ],
+    "action": "shop",
+    "actionLabel": "Comprar e vender"
+  },
+  {
+    "id": "seladora",
+    "name": "Seladora",
+    "lines": [
+      "Cada monstro guarda um pouco da essência dos Espíritos. Os Selos prendem essa essência.",
+      "Traga seus equipamentos e seus Selos: eu os encaixo com cuidado. E também os retiro, se precisar."
+    ],
+    "action": "seals",
+    "actionLabel": "Encaixar Selos"
+  },
+  {
+    "id": "guardia",
+    "name": "Guardiã do Santuário",
+    "lines": [
+      "Então você é quem os Espíritos trouxeram de outra realidade... O vento me contou que viria.",
+      "Este Santuário é onde os Espíritos fiéis se encontram. Um deles traiu os outros, e as ilhas sentem a falta desse equilíbrio.",
+      "Quando estiver pronto, posso guiá-lo à prova do Pacto. Só quem firma um Pacto carrega o poder de um Espírito."
+    ],
+    "action": "pact",
+    "actionLabel": "Prova do Pacto"
+  }
+]

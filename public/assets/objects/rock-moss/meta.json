@@ -1,0 +1,27 @@
+{
+    "image": "object.png",
+    "pixellabId": "8718d181-1784-4551-980f-4d3b163fb5ba",
+    "width": 48,
+    "height": 48,
+    "opaqueBounds": {
+        "x0": 3,
+        "y0": 5,
+        "x1": 44,
+        "y1": 42
+    },
+    "pivot": {
+        "x": 24,
+        "y": 40
+    },
+    "origin": {
+        "x": 0.5,
+        "y": 0.8333
+    },
+    "footprintTiles": {
+        "w": 1,
+        "h": 1
+    },
+    "blocking": true,
+    "occludes": false,
+    "note": "Pedregulho cinza coberto de musgo com florzinhas (Bosque)."
+}

@@ -1,0 +1,109 @@
+{
+  "character": {
+    "id": "3b9c3a7f-47e7-459f-82ab-753810f4fb9d",
+    "name": "Idle",
+    "prompt": "cute small armadillo pill bug monster on four short legs, rounded segmented grey-brown stone shell covered with green moss patches, small glowing cyan crystals sticking out of its back, cute small face with big round black eyes and pink nose, chunky and sturdy, fantasy MMORPG monster sprite, vibrant colors",
+    "size": {
+      "width": 56,
+      "height": 56
+    },
+    "directions": 8,
+    "view": "low top-down"
+  },
+  "spritesheet": {
+    "path": "Cascudo-Idle.png",
+    "cell_size": {
+      "width": 76,
+      "height": 76
+    },
+    "sheet_size": {
+      "width": 608,
+      "height": 684
+    },
+    "columns": 8,
+    "pivot": "cell-center",
+    "rows": [
+      {
+        "row": 0,
+        "type": "rotations",
+        "frame_count": 8,
+        "directions": [
+          "south",
+          "south-east",
+          "east",
+          "north-east",
+          "north",
+          "north-west",
+          "west",
+          "south-west"
+        ]
+      },
+      {
+        "row": 1,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "walk",
+        "animation_group_id": "1bc85517-3a9f-4427-b6b3-98d5ea6663de",
+        "direction": "south"
+      },
+      {
+        "row": 2,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "walk",
+        "animation_group_id": "1bc85517-3a9f-4427-b6b3-98d5ea6663de",
+        "direction": "south-east"
+      },
+      {
+        "row": 3,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "walk",
+        "animation_group_id": "1bc85517-3a9f-4427-b6b3-98d5ea6663de",
+        "direction": "east"
+      },
+      {
+        "row": 4,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "walk",
+        "animation_group_id": "1bc85517-3a9f-4427-b6b3-98d5ea6663de",
+        "direction": "north-east"
+      },
+      {
+        "row": 5,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "walk",
+        "animation_group_id": "1bc85517-3a9f-4427-b6b3-98d5ea6663de",
+        "direction": "north"
+      },
+      {
+        "row": 6,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "walk",
+        "animation_group_id": "1bc85517-3a9f-4427-b6b3-98d5ea6663de",
+        "direction": "north-west"
+      },
+      {
+        "row": 7,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "walk",
+        "animation_group_id": "1bc85517-3a9f-4427-b6b3-98d5ea6663de",
+        "direction": "west"
+      },
+      {
+        "row": 8,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "walk",
+        "animation_group_id": "1bc85517-3a9f-4427-b6b3-98d5ea6663de",
+        "direction": "south-west"
+      }
+    ]
+  },
+  "export_version": "1.0",
+  "export_date": "2026-09-27T19:13:55.920799+00:00"
+}

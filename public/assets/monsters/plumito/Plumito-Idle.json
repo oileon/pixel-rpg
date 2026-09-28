@@ -1,0 +1,109 @@
+{
+  "character": {
+    "id": "ddc2089e-2ef0-4b24-99f4-bd755e89ad60",
+    "name": "Idle",
+    "prompt": "cute baby cloud bird monster, round fluffy ball of white and pale sky-blue feathers like a little cloud, tiny short stubby wings, small yellow beak, big round shiny black eyes, tiny orange feet, small feather tuft on top, floating slightly, fantasy MMORPG monster sprite, vibrant colors",
+    "size": {
+      "width": 48,
+      "height": 48
+    },
+    "directions": 8,
+    "view": "low top-down"
+  },
+  "spritesheet": {
+    "path": "Plumito-Idle.png",
+    "cell_size": {
+      "width": 68,
+      "height": 68
+    },
+    "sheet_size": {
+      "width": 544,
+      "height": 612
+    },
+    "columns": 8,
+    "pivot": "cell-center",
+    "rows": [
+      {
+        "row": 0,
+        "type": "rotations",
+        "frame_count": 8,
+        "directions": [
+          "south",
+          "south-east",
+          "east",
+          "north-east",
+          "north",
+          "north-west",
+          "west",
+          "south-west"
+        ]
+      },
+      {
+        "row": 1,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "hop_fly",
+        "animation_group_id": "e7ce98cd-6901-48ac-ae48-71cf1bf6b728",
+        "direction": "south"
+      },
+      {
+        "row": 2,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "hop_fly",
+        "animation_group_id": "e7ce98cd-6901-48ac-ae48-71cf1bf6b728",
+        "direction": "south-east"
+      },
+      {
+        "row": 3,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "hop_fly",
+        "animation_group_id": "e7ce98cd-6901-48ac-ae48-71cf1bf6b728",
+        "direction": "east"
+      },
+      {
+        "row": 4,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "hop_fly",
+        "animation_group_id": "e7ce98cd-6901-48ac-ae48-71cf1bf6b728",
+        "direction": "north-east"
+      },
+      {
+        "row": 5,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "hop_fly",
+        "animation_group_id": "e7ce98cd-6901-48ac-ae48-71cf1bf6b728",
+        "direction": "north"
+      },
+      {
+        "row": 6,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "hop_fly",
+        "animation_group_id": "e7ce98cd-6901-48ac-ae48-71cf1bf6b728",
+        "direction": "north-west"
+      },
+      {
+        "row": 7,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "hop_fly",
+        "animation_group_id": "e7ce98cd-6901-48ac-ae48-71cf1bf6b728",
+        "direction": "west"
+      },
+      {
+        "row": 8,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "hop_fly",
+        "animation_group_id": "e7ce98cd-6901-48ac-ae48-71cf1bf6b728",
+        "direction": "south-west"
+      }
+    ]
+  },
+  "export_version": "1.0",
+  "export_date": "2026-09-27T19:13:32.223729+00:00"
+}

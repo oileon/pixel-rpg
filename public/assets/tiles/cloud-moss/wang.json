@@ -1,0 +1,172 @@
+{
+  "image": "tileset.png",
+  "pixellabId": "9212aa0e-6d51-4e79-8a44-79d99b4e999e",
+  "tileSize": 32,
+  "columns": 4,
+  "rows": 4,
+  "lower": "cloud",
+  "upper": "moss",
+  "note": "Wang por cantos: cada tile e escolhido pelos terrenos nos 4 cantos (NW,NE,SW,SE). frame = row*4+col.",
+  "tiles": [
+    {
+      "col": 0,
+      "row": 0,
+      "x": 0,
+      "y": 0,
+      "NW": "moss",
+      "NE": "moss",
+      "SW": "cloud",
+      "SE": "moss"
+    },
+    {
+      "col": 1,
+      "row": 0,
+      "x": 32,
+      "y": 0,
+      "NW": "moss",
+      "NE": "cloud",
+      "SW": "moss",
+      "SE": "cloud"
+    },
+    {
+      "col": 2,
+      "row": 0,
+      "x": 64,
+      "y": 0,
+      "NW": "cloud",
+      "NE": "moss",
+      "SW": "cloud",
+      "SE": "cloud"
+    },
+    {
+      "col": 3,
+      "row": 0,
+      "x": 96,
+      "y": 0,
+      "NW": "moss",
+      "NE": "moss",
+      "SW": "cloud",
+      "SE": "cloud"
+    },
+    {
+      "col": 0,
+      "row": 1,
+      "x": 0,
+      "y": 32,
+      "NW": "cloud",
+      "NE": "moss",
+      "SW": "moss",
+      "SE": "cloud"
+    },
+    {
+      "col": 1,
+      "row": 1,
+      "x": 32,
+      "y": 32,
+      "NW": "moss",
+      "NE": "cloud",
+      "SW": "cloud",
+      "SE": "cloud"
+    },
+    {
+      "col": 2,
+      "row": 1,
+      "x": 64,
+      "y": 32,
+      "NW": "cloud",
+      "NE": "cloud",
+      "SW": "cloud",
+      "SE": "cloud"
+    },
+    {
+      "col": 3,
+      "row": 1,
+      "x": 96,
+      "y": 32,
+      "NW": "cloud",
+      "NE": "cloud",
+      "SW": "cloud",
+      "SE": "moss"
+    },
+    {
+      "col": 0,
+      "row": 2,
+      "x": 0,
+      "y": 64,
+      "NW": "moss",
+      "NE": "cloud",
+      "SW": "moss",
+      "SE": "moss"
+    },
+    {
+      "col": 1,
+      "row": 2,
+      "x": 32,
+      "y": 64,
+      "NW": "cloud",
+      "NE": "cloud",
+      "SW": "moss",
+      "SE": "moss"
+    },
+    {
+      "col": 2,
+      "row": 2,
+      "x": 64,
+      "y": 64,
+      "NW": "cloud",
+      "NE": "cloud",
+      "SW": "moss",
+      "SE": "cloud"
+    },
+    {
+      "col": 3,
+      "row": 2,
+      "x": 96,
+      "y": 64,
+      "NW": "cloud",
+      "NE": "moss",
+      "SW": "cloud",
+      "SE": "moss"
+    },
+    {
+      "col": 0,
+      "row": 3,
+      "x": 0,
+      "y": 96,
+      "NW": "moss",
+      "NE": "moss",
+      "SW": "moss",
+      "SE": "moss"
+    },
+    {
+      "col": 1,
+      "row": 3,
+      "x": 32,
+      "y": 96,
+      "NW": "moss",
+      "NE": "moss",
+      "SW": "moss",
+      "SE": "cloud"
+    },
+    {
+      "col": 2,
+      "row": 3,
+      "x": 64,
+      "y": 96,
+      "NW": "moss",
+      "NE": "cloud",
+      "SW": "cloud",
+      "SE": "moss"
+    },
+    {
+      "col": 3,
+      "row": 3,
+      "x": 96,
+      "y": 96,
+      "NW": "cloud",
+      "NE": "moss",
+      "SW": "moss",
+      "SE": "moss"
+    }
+  ]
+}

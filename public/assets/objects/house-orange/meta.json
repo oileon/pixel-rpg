@@ -1,0 +1,31 @@
+{
+    "image":  "object.png",
+    "pixellabId":  "c43da673-406c-473b-a15d-aef31f61f8b4",
+    "width":  192,
+    "height":  160,
+    "opaqueBounds":  {
+                         "y1":  149,
+                         "x0":  12,
+                         "x1":  178,
+                         "y0":  9
+                     },
+    "pivot":  {
+                  "y":  149,
+                  "x":  96
+              },
+    "origin":  {
+                   "y":  0.931,
+                   "x":  0.5
+               },
+    "footprintTiles":  {
+                           "h":  3,
+                           "w":  5
+                       },
+    "doorOffsetPx":  {
+                         "y":  149,
+                         "x":  96
+                     },
+    "blocking":  true,
+    "occludes":  true,
+    "note":  "Telhado laranja, paredes de pedra clara com vigas. Colisao 5x3 pela base."
+}

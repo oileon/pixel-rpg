@@ -1,0 +1,67 @@
+{
+  "group_id": "de9b42bb-ccce-41e4-94cc-b4657dca53b3",
+  "states": [
+    {
+      "character": {
+        "id": "859a1943-6661-4ad8-b741-42509dbb2539",
+        "name": "Idle",
+        "prompt": "cute chibi anime serene shrine guardian woman, big head, big calm open eyes, soft smile, long silver-white hair, light cream and pale sky-blue flowing mantle with hood down, white feather collar and soft fur trim on shoulders, small animal-spirit feather ornaments in hair, holding a tall wooden staff topped with a glowing teal crystal and white feathers, sandals, gentle luminous vibrant colors, fantasy MMORPG town NPC sprite",
+        "size": {
+          "width": 64,
+          "height": 64
+        },
+        "template_id": "mannequin",
+        "directions": 8,
+        "view": "low top-down",
+        "created_at": "2026-09-28T12:42:35.044765+00:00"
+      },
+      "folder": "Idle",
+      "frames": {
+        "rotations": {
+          "south": "Idle/rotations/south.png",
+          "south-east": "Idle/rotations/south-east.png",
+          "east": "Idle/rotations/east.png",
+          "north-east": "Idle/rotations/north-east.png",
+          "north": "Idle/rotations/north.png",
+          "north-west": "Idle/rotations/north-west.png",
+          "west": "Idle/rotations/west.png",
+          "south-west": "Idle/rotations/south-west.png"
+        },
+        "animations": {
+          "idle": {
+            "south-west": [
+              "Idle/animations/idle/south-west/frame_000.png",
+              "Idle/animations/idle/south-west/frame_001.png",
+              "Idle/animations/idle/south-west/frame_002.png",
+              "Idle/animations/idle/south-west/frame_003.png",
+              "Idle/animations/idle/south-west/frame_004.png"
+            ],
+            "south-east": [
+              "Idle/animations/idle/south-east/frame_000.png",
+              "Idle/animations/idle/south-east/frame_001.png",
+              "Idle/animations/idle/south-east/frame_002.png",
+              "Idle/animations/idle/south-east/frame_003.png",
+              "Idle/animations/idle/south-east/frame_004.png"
+            ],
+            "west": [
+              "Idle/animations/idle/west/frame_000.png",
+              "Idle/animations/idle/west/frame_001.png",
+              "Idle/animations/idle/west/frame_002.png",
+              "Idle/animations/idle/west/frame_003.png",
+              "Idle/animations/idle/west/frame_004.png"
+            ],
+            "south": [
+              "Idle/animations/idle/south/frame_000.png",
+              "Idle/animations/idle/south/frame_001.png",
+              "Idle/animations/idle/south/frame_002.png",
+              "Idle/animations/idle/south/frame_003.png",
+              "Idle/animations/idle/south/frame_004.png"
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "export_version": "3.1",
+  "export_date": "2026-09-28T13:14:08.473338"
+}

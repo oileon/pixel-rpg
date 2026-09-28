@@ -1,0 +1,54 @@
+{
+  "attack": {
+    "animation": "attack",
+    "impactFraction": 0.5,
+    "maxSwingFraction": 0.85,
+    "minSwingMs": 120,
+    "maxSwingMs": 420,
+    "rangeLeewayPx": 16,
+    "lungePx": 5,
+    "lungeOutMs": 70,
+    "lungeBackMs": 110
+  },
+  "hitStop": {
+    "normalMs": 55,
+    "critMs": 85,
+    "killBonusMs": 20,
+    "maxMs": 110
+  },
+  "flash": {
+    "monsterColor": "#ffffff",
+    "monsterMs": 70,
+    "playerColor": "#ff8a8a",
+    "playerMs": 140
+  },
+  "knockback": {
+    "normalPx": 3,
+    "critPx": 6,
+    "outMs": 60,
+    "backMs": 150
+  },
+  "shake": {
+    "critMs": 130,
+    "critIntensity": 0.004,
+    "heavyHitFraction": 0.6,
+    "heavyMs": 90,
+    "heavyIntensity": 0.0025
+  },
+  "lootFly": {
+    "durationMs": 560,
+    "staggerMs": 70,
+    "arcPx": 70,
+    "coinsPerParticle": 4,
+    "maxCoinParticles": 6,
+    "fragmentParticles": 2,
+    "endScale": 0.55,
+    "coinTarget": { "x": 252, "y": 123 },
+    "fragmentTarget": { "x": 18, "y": 44 },
+    "bagTarget": { "x": 936, "y": 494 }
+  },
+  "audio": {
+    "defaultVolume": 0.6,
+    "volumeStep": 0.1
+  }
+}

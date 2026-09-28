@@ -1,0 +1,33 @@
+{
+    "image": "object.png",
+    "pixellabId": "893f69fe-74c8-4f55-b407-479c9da40ac0",
+    "width": 96,
+    "height": 104,
+    "opaqueBounds": {
+        "x0": 13,
+        "y0": 13,
+        "x1": 82,
+        "y1": 89
+    },
+    "pivot": {
+        "x": 48,
+        "y": 87
+    },
+    "origin": {
+        "x": 0.5,
+        "y": 0.8365
+    },
+    "footprintTiles": {
+        "w": 2,
+        "h": 2
+    },
+    "blocking": false,
+    "occludes": false,
+    "note": "Ponte de tabuas para travessia NORTE-SUL sobre riacho que corre leste-oeste. Deck ~2,2 x 1,8 tiles (2 faixas de tabua duplicadas a mao para cobrir o riacho). Corrimaos de tronco nas laterais L/O. Nao bloqueia; desenhar como chao (depth de ponte) e deixar a agua sob ela andavel. Para travessia leste-oeste use bridge-h (tileavel) da Vila.",
+    "deck": {
+        "x0": 13,
+        "y0": 24,
+        "x1": 82,
+        "y1": 82
+    }
+}

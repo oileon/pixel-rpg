@@ -1,0 +1,27 @@
+{
+    "image":  "object.png",
+    "pixellabId":  "cce66a39-9b79-48eb-b2af-9e46700d051f",
+    "width":  64,
+    "height":  80,
+    "opaqueBounds":  {
+                         "y1":  75,
+                         "x0":  5,
+                         "x1":  58,
+                         "y0":  4
+                     },
+    "pivot":  {
+                  "y":  73,
+                  "x":  32
+              },
+    "origin":  {
+                   "y":  0.9125,
+                   "x":  0.5
+               },
+    "footprintTiles":  {
+                           "h":  1,
+                           "w":  1
+                       },
+    "blocking":  true,
+    "occludes":  true,
+    "note":  "Variacao rosa (cerejeira). Mesmo uso da tree-oak."
+}

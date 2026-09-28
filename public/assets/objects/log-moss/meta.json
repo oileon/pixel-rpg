@@ -1,0 +1,27 @@
+{
+    "image": "object.png",
+    "pixellabId": "99dc4c13-c70a-45d7-a630-a32489280ac2",
+    "width": 96,
+    "height": 48,
+    "opaqueBounds": {
+        "x0": 2,
+        "y0": 14,
+        "x1": 93,
+        "y1": 37
+    },
+    "pivot": {
+        "x": 48,
+        "y": 35
+    },
+    "origin": {
+        "x": 0.5,
+        "y": 0.7292
+    },
+    "footprintTiles": {
+        "w": 3,
+        "h": 1
+    },
+    "blocking": true,
+    "occludes": false,
+    "note": "Tronco caido horizontal com musgo e cogumelinhos vermelhos."
+}

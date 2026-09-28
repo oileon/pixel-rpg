@@ -1,0 +1,81 @@
+[
+  {
+    "id": "pomi",
+    "name": "Pomi",
+    "description": "Gosma fofa e redondinha cor de rosa-pêssego, com olhinhos brilhantes e uma folhinha no topo. Pula devagar pelos campos e só revida quando atacada.",
+    "level": 1,
+    "hp": 40,
+    "atk": 5,
+    "def": 0,
+    "hit": 8,
+    "flee": 2,
+    "aspd": 140,
+    "moveSpeed": 45,
+    "exp": 6,
+    "element": "water",
+    "sealId": "seal_pomi",
+    "fragmentsPerKill": 2,
+    "currency": { "min": 1, "max": 3, "chance": 0.8 },
+    "drops": [
+      { "itemId": "geleia_pessego", "chance": 0.7 },
+      { "itemId": "maca_do_ceu", "chance": 0.15 },
+      { "itemId": "tonico_frutas", "chance": 0.05 }
+    ],
+    "behavior": "passive",
+    "aggroRange": 0,
+    "attackRange": 36
+  },
+  {
+    "id": "plumito",
+    "name": "Plumito",
+    "description": "Filhote de ave-nuvem: uma bolinha de penas branco-azuladas com asinhas curtas e bico amarelo. Flutua aos saltinhos acima da grama e é difícil de acertar.",
+    "level": 3,
+    "hp": 55,
+    "atk": 9,
+    "def": 2,
+    "hit": 14,
+    "flee": 18,
+    "aspd": 150,
+    "moveSpeed": 70,
+    "exp": 14,
+    "element": "wind",
+    "sealId": "seal_plumito",
+    "fragmentsPerKill": 2,
+    "currency": { "min": 3, "max": 7, "chance": 0.8 },
+    "drops": [
+      { "itemId": "pena_nuvem", "chance": 0.6 },
+      { "itemId": "maca_do_ceu", "chance": 0.1 },
+      { "itemId": "cha_de_nuvem", "chance": 0.08 }
+    ],
+    "behavior": "passive",
+    "aggroRange": 0,
+    "attackRange": 40
+  },
+  {
+    "id": "cascudo",
+    "name": "Cascudo",
+    "description": "Tatuzinho com casco de pedra coberto de musgo e pequenos cristais flutuantes presos às costas. Territorial: rola na direção de quem chega perto.",
+    "level": 5,
+    "hp": 110,
+    "atk": 14,
+    "def": 15,
+    "hit": 18,
+    "flee": 5,
+    "aspd": 130,
+    "moveSpeed": 40,
+    "exp": 30,
+    "element": "earth",
+    "sealId": "seal_cascudo",
+    "fragmentsPerKill": 1,
+    "currency": { "min": 8, "max": 15, "chance": 0.9 },
+    "drops": [
+      { "itemId": "placa_musgo", "chance": 0.55 },
+      { "itemId": "tonico_frutas", "chance": 0.1 },
+      { "itemId": "cristal_flutuante", "chance": 0.02 },
+      { "itemId": "colete_lona", "chance": 0.01 }
+    ],
+    "behavior": "aggressive",
+    "aggroRange": 112,
+    "attackRange": 40
+  }
+]

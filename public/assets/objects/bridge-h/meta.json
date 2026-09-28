@@ -1,0 +1,25 @@
+{
+    "image":  "bridge-h.png",
+    "pixellabId":  null,
+    "paletteFrom":  "55b7e330-d810-47dc-974e-dfeae668abf4",
+    "width":  32,
+    "height":  96,
+    "tileSize":  32,
+    "frames":  [
+                   {
+                       "role":  "borda norte (viga + deck)",
+                       "row":  0
+                   },
+                   {
+                       "role":  "deck",
+                       "row":  1
+                   },
+                   {
+                       "role":  "borda sul (deck + viga frontal)",
+                       "row":  2
+                   }
+               ],
+    "repeat":  "horizontal, periodo 32px",
+    "blocking":  false,
+    "note":  "Tile de ponte horizontal para a estrada de 3 tiles de altura sobre nuvens (Tile.Bridge). Desenhado por script com a paleta da ponte PixelLab. Usar como spritesheet 32x32 (frames 0,1,2 = linha de cima/meio/baixo da ponte)."
+}

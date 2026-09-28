@@ -1,0 +1,27 @@
+{
+    "image": "object.png",
+    "pixellabId": "67906365-a601-43a2-ba86-c2d19898760f",
+    "width": 32,
+    "height": 32,
+    "opaqueBounds": {
+        "x0": 5,
+        "y0": 5,
+        "x1": 27,
+        "y1": 26
+    },
+    "pivot": {
+        "x": 16,
+        "y": 24
+    },
+    "origin": {
+        "x": 0.5,
+        "y": 0.75
+    },
+    "footprintTiles": {
+        "w": 1,
+        "h": 1
+    },
+    "blocking": false,
+    "occludes": false,
+    "note": "Flores luminosas ciano/douradas; decoracao pisavel. Bom lugar para um brilho aditivo pulsando."
+}

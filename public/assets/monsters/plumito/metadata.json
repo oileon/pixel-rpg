@@ -1,0 +1,119 @@
+{
+  "group_id": "22efceae-753a-4b57-b8af-7db79b4757f1",
+  "states": [
+    {
+      "character": {
+        "id": "ddc2089e-2ef0-4b24-99f4-bd755e89ad60",
+        "name": "Idle",
+        "prompt": "cute baby cloud bird monster, round fluffy ball of white and pale sky-blue feathers like a little cloud, tiny short stubby wings, small yellow beak, big round shiny black eyes, tiny orange feet, small feather tuft on top, floating slightly, fantasy MMORPG monster sprite, vibrant colors",
+        "size": {
+          "width": 48,
+          "height": 48
+        },
+        "template_id": "mannequin",
+        "directions": 8,
+        "view": "low top-down",
+        "created_at": "2026-09-27T16:51:03.153934+00:00"
+      },
+      "folder": "Idle",
+      "frames": {
+        "rotations": {
+          "south": "Idle/rotations/south.png",
+          "south-east": "Idle/rotations/south-east.png",
+          "east": "Idle/rotations/east.png",
+          "north-east": "Idle/rotations/north-east.png",
+          "north": "Idle/rotations/north.png",
+          "north-west": "Idle/rotations/north-west.png",
+          "west": "Idle/rotations/west.png",
+          "south-west": "Idle/rotations/south-west.png"
+        },
+        "animations": {
+          "hop_fly": {
+            "east": [
+              "Idle/animations/hop_fly/east/frame_000.png",
+              "Idle/animations/hop_fly/east/frame_001.png",
+              "Idle/animations/hop_fly/east/frame_002.png",
+              "Idle/animations/hop_fly/east/frame_003.png",
+              "Idle/animations/hop_fly/east/frame_004.png",
+              "Idle/animations/hop_fly/east/frame_005.png",
+              "Idle/animations/hop_fly/east/frame_006.png",
+              "Idle/animations/hop_fly/east/frame_007.png"
+            ],
+            "north": [
+              "Idle/animations/hop_fly/north/frame_000.png",
+              "Idle/animations/hop_fly/north/frame_001.png",
+              "Idle/animations/hop_fly/north/frame_002.png",
+              "Idle/animations/hop_fly/north/frame_003.png",
+              "Idle/animations/hop_fly/north/frame_004.png",
+              "Idle/animations/hop_fly/north/frame_005.png",
+              "Idle/animations/hop_fly/north/frame_006.png",
+              "Idle/animations/hop_fly/north/frame_007.png"
+            ],
+            "south-west": [
+              "Idle/animations/hop_fly/south-west/frame_000.png",
+              "Idle/animations/hop_fly/south-west/frame_001.png",
+              "Idle/animations/hop_fly/south-west/frame_002.png",
+              "Idle/animations/hop_fly/south-west/frame_003.png",
+              "Idle/animations/hop_fly/south-west/frame_004.png",
+              "Idle/animations/hop_fly/south-west/frame_005.png",
+              "Idle/animations/hop_fly/south-west/frame_006.png",
+              "Idle/animations/hop_fly/south-west/frame_007.png"
+            ],
+            "south": [
+              "Idle/animations/hop_fly/south/frame_000.png",
+              "Idle/animations/hop_fly/south/frame_001.png",
+              "Idle/animations/hop_fly/south/frame_002.png",
+              "Idle/animations/hop_fly/south/frame_003.png",
+              "Idle/animations/hop_fly/south/frame_004.png",
+              "Idle/animations/hop_fly/south/frame_005.png",
+              "Idle/animations/hop_fly/south/frame_006.png",
+              "Idle/animations/hop_fly/south/frame_007.png"
+            ],
+            "south-east": [
+              "Idle/animations/hop_fly/south-east/frame_000.png",
+              "Idle/animations/hop_fly/south-east/frame_001.png",
+              "Idle/animations/hop_fly/south-east/frame_002.png",
+              "Idle/animations/hop_fly/south-east/frame_003.png",
+              "Idle/animations/hop_fly/south-east/frame_004.png",
+              "Idle/animations/hop_fly/south-east/frame_005.png",
+              "Idle/animations/hop_fly/south-east/frame_006.png",
+              "Idle/animations/hop_fly/south-east/frame_007.png"
+            ],
+            "north-east": [
+              "Idle/animations/hop_fly/north-east/frame_000.png",
+              "Idle/animations/hop_fly/north-east/frame_001.png",
+              "Idle/animations/hop_fly/north-east/frame_002.png",
+              "Idle/animations/hop_fly/north-east/frame_003.png",
+              "Idle/animations/hop_fly/north-east/frame_004.png",
+              "Idle/animations/hop_fly/north-east/frame_005.png",
+              "Idle/animations/hop_fly/north-east/frame_006.png",
+              "Idle/animations/hop_fly/north-east/frame_007.png"
+            ],
+            "north-west": [
+              "Idle/animations/hop_fly/north-west/frame_000.png",
+              "Idle/animations/hop_fly/north-west/frame_001.png",
+              "Idle/animations/hop_fly/north-west/frame_002.png",
+              "Idle/animations/hop_fly/north-west/frame_003.png",
+              "Idle/animations/hop_fly/north-west/frame_004.png",
+              "Idle/animations/hop_fly/north-west/frame_005.png",
+              "Idle/animations/hop_fly/north-west/frame_006.png",
+              "Idle/animations/hop_fly/north-west/frame_007.png"
+            ],
+            "west": [
+              "Idle/animations/hop_fly/west/frame_000.png",
+              "Idle/animations/hop_fly/west/frame_001.png",
+              "Idle/animations/hop_fly/west/frame_002.png",
+              "Idle/animations/hop_fly/west/frame_003.png",
+              "Idle/animations/hop_fly/west/frame_004.png",
+              "Idle/animations/hop_fly/west/frame_005.png",
+              "Idle/animations/hop_fly/west/frame_006.png",
+              "Idle/animations/hop_fly/west/frame_007.png"
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "export_version": "3.1",
+  "export_date": "2026-09-27T17:45:13.167941"
+}

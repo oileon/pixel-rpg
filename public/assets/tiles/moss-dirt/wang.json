@@ -1,0 +1,172 @@
+{
+  "image": "tileset.png",
+  "pixellabId": "54c8555a-d54d-4c7b-bd26-5c36d978a83f",
+  "tileSize": 32,
+  "columns": 4,
+  "rows": 4,
+  "lower": "dirt",
+  "upper": "moss",
+  "note": "Wang por cantos: cada tile e escolhido pelos terrenos nos 4 cantos (NW,NE,SW,SE). frame = row*4+col.",
+  "tiles": [
+    {
+      "col": 0,
+      "row": 0,
+      "x": 0,
+      "y": 0,
+      "NW": "moss",
+      "NE": "moss",
+      "SW": "dirt",
+      "SE": "moss"
+    },
+    {
+      "col": 1,
+      "row": 0,
+      "x": 32,
+      "y": 0,
+      "NW": "moss",
+      "NE": "dirt",
+      "SW": "moss",
+      "SE": "dirt"
+    },
+    {
+      "col": 2,
+      "row": 0,
+      "x": 64,
+      "y": 0,
+      "NW": "dirt",
+      "NE": "moss",
+      "SW": "dirt",
+      "SE": "dirt"
+    },
+    {
+      "col": 3,
+      "row": 0,
+      "x": 96,
+      "y": 0,
+      "NW": "moss",
+      "NE": "moss",
+      "SW": "dirt",
+      "SE": "dirt"
+    },
+    {
+      "col": 0,
+      "row": 1,
+      "x": 0,
+      "y": 32,
+      "NW": "dirt",
+      "NE": "moss",
+      "SW": "moss",
+      "SE": "dirt"
+    },
+    {
+      "col": 1,
+      "row": 1,
+      "x": 32,
+      "y": 32,
+      "NW": "moss",
+      "NE": "dirt",
+      "SW": "dirt",
+      "SE": "dirt"
+    },
+    {
+      "col": 2,
+      "row": 1,
+      "x": 64,
+      "y": 32,
+      "NW": "dirt",
+      "NE": "dirt",
+      "SW": "dirt",
+      "SE": "dirt"
+    },
+    {
+      "col": 3,
+      "row": 1,
+      "x": 96,
+      "y": 32,
+      "NW": "dirt",
+      "NE": "dirt",
+      "SW": "dirt",
+      "SE": "moss"
+    },
+    {
+      "col": 0,
+      "row": 2,
+      "x": 0,
+      "y": 64,
+      "NW": "moss",
+      "NE": "dirt",
+      "SW": "moss",
+      "SE": "moss"
+    },
+    {
+      "col": 1,
+      "row": 2,
+      "x": 32,
+      "y": 64,
+      "NW": "dirt",
+      "NE": "dirt",
+      "SW": "moss",
+      "SE": "moss"
+    },
+    {
+      "col": 2,
+      "row": 2,
+      "x": 64,
+      "y": 64,
+      "NW": "dirt",
+      "NE": "dirt",
+      "SW": "moss",
+      "SE": "dirt"
+    },
+    {
+      "col": 3,
+      "row": 2,
+      "x": 96,
+      "y": 64,
+      "NW": "dirt",
+      "NE": "moss",
+      "SW": "dirt",
+      "SE": "moss"
+    },
+    {
+      "col": 0,
+      "row": 3,
+      "x": 0,
+      "y": 96,
+      "NW": "moss",
+      "NE": "moss",
+      "SW": "moss",
+      "SE": "moss"
+    },
+    {
+      "col": 1,
+      "row": 3,
+      "x": 32,
+      "y": 96,
+      "NW": "moss",
+      "NE": "moss",
+      "SW": "moss",
+      "SE": "dirt"
+    },
+    {
+      "col": 2,
+      "row": 3,
+      "x": 64,
+      "y": 96,
+      "NW": "moss",
+      "NE": "dirt",
+      "SW": "dirt",
+      "SE": "moss"
+    },
+    {
+      "col": 3,
+      "row": 3,
+      "x": 96,
+      "y": 96,
+      "NW": "dirt",
+      "NE": "moss",
+      "SW": "moss",
+      "SE": "moss"
+    }
+  ]
+}

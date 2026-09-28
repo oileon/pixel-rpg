@@ -1,0 +1,27 @@
+{
+    "image":  "object.png",
+    "pixellabId":  "7749a24a-f6d3-4111-a030-2fbb989f4414",
+    "width":  32,
+    "height":  32,
+    "opaqueBounds":  {
+                         "y1":  26,
+                         "x0":  3,
+                         "x1":  27,
+                         "y0":  4
+                     },
+    "pivot":  {
+                  "y":  26,
+                  "x":  16
+              },
+    "origin":  {
+                   "y":  0.8125,
+                   "x":  0.5
+               },
+    "footprintTiles":  {
+                           "h":  1,
+                           "w":  1
+                       },
+    "blocking":  false,
+    "occludes":  false,
+    "note":  "Substitui Tile.Flowers. Decorativo (nao bloqueia), ou bloqueante 1x1 se preferir arbusto solido."
+}

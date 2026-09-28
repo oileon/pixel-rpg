@@ -1,0 +1,109 @@
+{
+  "character": {
+    "id": "b7964906-099d-4f7d-88dd-3f2642932ecd",
+    "name": "Idle",
+    "prompt": "cute round jelly slime monster, peach-pink translucent gelatin blob, glossy white shine highlight on top, big round cute black eyes with white sparkle, small happy mouth, no arms no legs, bouncy dome shape, fantasy MMORPG monster sprite",
+    "size": {
+      "width": 48,
+      "height": 48
+    },
+    "directions": 8,
+    "view": "low top-down"
+  },
+  "spritesheet": {
+    "path": "Gosma-Idle.png",
+    "cell_size": {
+      "width": 60,
+      "height": 60
+    },
+    "sheet_size": {
+      "width": 480,
+      "height": 540
+    },
+    "columns": 8,
+    "pivot": "cell-center",
+    "rows": [
+      {
+        "row": 0,
+        "type": "rotations",
+        "frame_count": 8,
+        "directions": [
+          "south",
+          "south-east",
+          "east",
+          "north-east",
+          "north",
+          "north-west",
+          "west",
+          "south-west"
+        ]
+      },
+      {
+        "row": 1,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "idle_bounce",
+        "animation_group_id": "3d113623-ce28-481b-a1d0-42959d2b49f3",
+        "direction": "south"
+      },
+      {
+        "row": 2,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "idle_bounce",
+        "animation_group_id": "3d113623-ce28-481b-a1d0-42959d2b49f3",
+        "direction": "south-east"
+      },
+      {
+        "row": 3,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "idle_bounce",
+        "animation_group_id": "3d113623-ce28-481b-a1d0-42959d2b49f3",
+        "direction": "east"
+      },
+      {
+        "row": 4,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "idle_bounce",
+        "animation_group_id": "3d113623-ce28-481b-a1d0-42959d2b49f3",
+        "direction": "north-east"
+      },
+      {
+        "row": 5,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "idle_bounce",
+        "animation_group_id": "3d113623-ce28-481b-a1d0-42959d2b49f3",
+        "direction": "north"
+      },
+      {
+        "row": 6,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "idle_bounce",
+        "animation_group_id": "3d113623-ce28-481b-a1d0-42959d2b49f3",
+        "direction": "north-west"
+      },
+      {
+        "row": 7,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "idle_bounce",
+        "animation_group_id": "3d113623-ce28-481b-a1d0-42959d2b49f3",
+        "direction": "west"
+      },
+      {
+        "row": 8,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "idle_bounce",
+        "animation_group_id": "3d113623-ce28-481b-a1d0-42959d2b49f3",
+        "direction": "south-west"
+      }
+    ]
+  },
+  "export_version": "1.0",
+  "export_date": "2026-09-27T16:35:35.858312+00:00"
+}

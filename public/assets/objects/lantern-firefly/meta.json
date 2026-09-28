@@ -1,0 +1,27 @@
+{
+    "image": "object.png",
+    "pixellabId": "661f26d2-aabc-42cf-b311-8d1a26b56fcb",
+    "width": 32,
+    "height": 64,
+    "opaqueBounds": {
+        "x0": 7,
+        "y0": 8,
+        "x1": 24,
+        "y1": 57
+    },
+    "pivot": {
+        "x": 16,
+        "y": 55
+    },
+    "origin": {
+        "x": 0.5,
+        "y": 0.8594
+    },
+    "footprintTiles": {
+        "w": 1,
+        "h": 1
+    },
+    "blocking": true,
+    "occludes": false,
+    "note": "Poste com lanterna de vagalumes (luz dourada). Bom lugar para um brilho aditivo."
+}

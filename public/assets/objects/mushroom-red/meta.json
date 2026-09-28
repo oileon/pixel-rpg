@@ -1,0 +1,27 @@
+{
+    "image": "object.png",
+    "pixellabId": "bb5ffec4-99ca-44e3-a5c6-18ef80321e4c",
+    "width": 64,
+    "height": 80,
+    "opaqueBounds": {
+        "x0": 8,
+        "y0": 6,
+        "x1": 55,
+        "y1": 75
+    },
+    "pivot": {
+        "x": 32,
+        "y": 73
+    },
+    "origin": {
+        "x": 0.5,
+        "y": 0.9125
+    },
+    "footprintTiles": {
+        "w": 1,
+        "h": 1
+    },
+    "blocking": true,
+    "occludes": true,
+    "note": "Cogumelo gigante vermelho de bolinhas; chapeu ~2 tiles de largura."
+}

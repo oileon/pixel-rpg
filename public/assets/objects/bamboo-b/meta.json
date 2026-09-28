@@ -1,0 +1,27 @@
+{
+    "image": "object.png",
+    "pixellabId": "71e9ff41-6f65-40be-a51a-ae4b5499f5e0",
+    "width": 64,
+    "height": 96,
+    "opaqueBounds": {
+        "x0": 6,
+        "y0": 6,
+        "x1": 57,
+        "y1": 90
+    },
+    "pivot": {
+        "x": 32,
+        "y": 88
+    },
+    "origin": {
+        "x": 0.5,
+        "y": 0.9167
+    },
+    "footprintTiles": {
+        "w": 1,
+        "h": 1
+    },
+    "blocking": true,
+    "occludes": true,
+    "note": "Moita de bambu densa (verde-jade), copa larga; variacao B."
+}

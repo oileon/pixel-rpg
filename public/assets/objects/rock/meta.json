@@ -1,0 +1,27 @@
+{
+    "image":  "object.png",
+    "pixellabId":  "cc87942f-afc4-4887-a447-0003548848e6",
+    "width":  32,
+    "height":  32,
+    "opaqueBounds":  {
+                         "y1":  28,
+                         "x0":  2,
+                         "x1":  29,
+                         "y0":  3
+                     },
+    "pivot":  {
+                  "y":  28,
+                  "x":  16
+              },
+    "origin":  {
+                   "y":  0.875,
+                   "x":  0.5
+               },
+    "footprintTiles":  {
+                           "h":  1,
+                           "w":  1
+                       },
+    "blocking":  true,
+    "occludes":  false,
+    "note":  "Pedra alta com musgo (variacao A)."
+}

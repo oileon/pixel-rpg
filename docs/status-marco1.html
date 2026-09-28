@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Status Marco 1</title>
+<style>
+  :root { --bg:#f5f5f5; --card:#fff; --text:#1a1a1a; --dim:#666; --ok:#1b8a3a; --warn:#b36b00; --line:#e0e0e0; --accent:#0066cc; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#121212; --card:#1e1e1e; --text:#e6e6e6; --dim:#a0a0a0; --ok:#4cd07a; --warn:#ffb74d; --line:#333; --accent:#4da3ff; }
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); line-height: 1.55; padding: 24px 16px; }
+  .wrap { max-width: 900px; margin: 0 auto; background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 28px; }
+  h1 { color: var(--accent); font-size: 1.8em; }
+  .sub { color: var(--dim); margin-bottom: 20px; }
+  h2 { font-size: 1.2em; margin: 28px 0 10px; padding-bottom: 6px; border-bottom: 1px solid var(--line); }
+  .bar { background: var(--line); border-radius: 10px; height: 20px; overflow: hidden; margin: 8px 0 4px; }
+  .fill { background: var(--ok); height: 100%; color: #fff; font-size: .8em; font-weight: 600; display: flex; align-items: center; justify-content: center; }
+  table { width: 100%; border-collapse: collapse; font-size: .92em; }
+  th, td { text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { color: var(--dim); font-weight: 600; }
+  .ok { color: var(--ok); font-weight: 600; }
+  .warn { color: var(--warn); font-weight: 600; }
+  code { font-family: ui-monospace, Consolas, monospace; font-size: .9em; }
+  ul { margin-left: 20px; }
+  li { margin: 4px 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Status do Marco 1</h1>
+  <p class="sub">Atualizado em 27/09/2026 — após a rodada final do qa-revisor</p>
+
+  <div class="bar"><div class="fill" style="width:98%">~98% — entregável</div></div>
+  <p>Build e 120 testes passando. Loop completo testado no navegador, sem problemas críticos.</p>
+
+  <h2>Checklist</h2>
+  <table>
+    <tr><th>Item</th><th>Estado</th><th>Observação</th></tr>
+    <tr><td>Aprendiz em 8 direções + câmera</td><td class="ok">OK</td><td>Direções SE/E/W/SW refeitas em v3; pés alinhados em todos os frames</td></tr>
+    <tr><td>Cidade + campo com transição</td><td class="ok">OK</td><td>Vila Brisa e Campos de Pêssego com tilesets e objetos reais; pontes nos dois sentidos</td></tr>
+    <tr><td>3 monstros com IA simples</td><td class="ok">OK</td><td>Pomi e Plumito passivos; Cascudo agressivo (aggro 112 px, tocas separadas)</td></tr>
+    <tr><td>Combate por clique</td><td class="ok">OK</td><td>Auto-ataque, dano, Miss, barra de HP do monstro</td></tr>
+    <tr><td>HP/SP, regeneração, morte</td><td class="ok">OK</td><td>Fadiga e volta ao ponto seguro</td></tr>
+    <tr><td>EXP e level up</td><td class="ok">OK</td><td>Banner soma pontos de vários níveis</td></tr>
+    <tr><td>Stats (tecla C)</td><td class="ok">OK</td><td>Prévia, custo do próximo ponto, Aplicar, reset com confirmação</td></tr>
+    <tr><td>Drops e inventário (tecla I)</td><td class="ok">OK</td><td>Usar consumíveis, equipar e desequipar, raridade na borda</td></tr>
+    <tr><td>Auto-pegar (P) e ESC</td><td class="ok">OK</td><td></td></tr>
+  </table>
+
+  <h2>Pendências menores</h2>
+  <ul>
+    <li>Idle SE do Aprendiz refeito (olhos abertos); boca abre levemente em 1 frame</li>
+    <li>Walk SE: boca abre em 3 frames; walk E: cabeça gira levemente no fim do ciclo</li>
+    <li>Casa azul: ~0,2 tile de colisão invisível de cada lado</li>
+    <li>Lago do campo em degraus; beirada de grama logo após a ponte do campo</li>
+    <li>Selos (<code>seal_*</code>) sem definição em JSON — escopo do Marco 2</li>
+  </ul>
+
+  <h2>Orçamento PixelLab</h2>
+  <p>~127 gerações usadas de 2000 no ciclo (renova em 27/10/2026). Registro detalhado em <code>docs/assets.md</code> e <code>docs/assets-cenario.md</code>.</p>
+
+  <h2>Como jogar</h2>
+  <ul>
+    <li><code>npm run dev</code> e abrir <code>http://localhost:5173/</code></li>
+    <li>Clique ou WASD para andar; clique em monstro para atacar</li>
+    <li>C: Status · I: Inventário · P: auto-pegar · ESC: fecha janelas</li>
+    <li>Direto no campo: <code>?map=field&amp;spawn=fromTown</code></li>
+  </ul>
+</div>
+</body>
+</html>

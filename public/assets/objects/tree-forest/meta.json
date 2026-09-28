@@ -1,0 +1,27 @@
+{
+    "image": "object.png",
+    "pixellabId": "650a6894-39f4-491d-a478-ce61d6af51e4",
+    "width": 80,
+    "height": 96,
+    "opaqueBounds": {
+        "x0": 7,
+        "y0": 6,
+        "x1": 72,
+        "y1": 89
+    },
+    "pivot": {
+        "x": 40,
+        "y": 87
+    },
+    "origin": {
+        "x": 0.5,
+        "y": 0.9062
+    },
+    "footprintTiles": {
+        "w": 1,
+        "h": 1
+    },
+    "blocking": true,
+    "occludes": true,
+    "note": "Arvore do bosque, copa verde-dourada, raizes com musgo (extra, nao pedido)."
+}

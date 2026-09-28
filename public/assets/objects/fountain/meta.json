@@ -1,0 +1,27 @@
+{
+    "image":  "object.png",
+    "pixellabId":  "905d8ed5-2949-4bdc-b7aa-2f4a578f8072",
+    "width":  64,
+    "height":  64,
+    "opaqueBounds":  {
+                         "y1":  58,
+                         "x0":  5,
+                         "x1":  58,
+                         "y0":  6
+                     },
+    "pivot":  {
+                  "y":  58,
+                  "x":  32
+              },
+    "origin":  {
+                   "y":  0.906,
+                   "x":  0.5
+               },
+    "footprintTiles":  {
+                           "h":  2,
+                           "w":  2
+                       },
+    "blocking":  true,
+    "occludes":  true,
+    "note":  "Ocupa a area 2x2 da fonte da praca (town.ts: x21,y15,w2,h2). Colocar pivo no meio da borda inferior da area 2x2: (22*32, 17*32). Jato passa por cima de quem esta atras."
+}

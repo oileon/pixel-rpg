@@ -1,0 +1,27 @@
+{
+    "image": "object.png",
+    "pixellabId": "28520663-516e-4a15-b74e-709469cd4ab1",
+    "width": 96,
+    "height": 96,
+    "opaqueBounds": {
+        "x0": 8,
+        "y0": 7,
+        "x1": 82,
+        "y1": 82
+    },
+    "pivot": {
+        "x": 45,
+        "y": 80
+    },
+    "origin": {
+        "x": 0.4688,
+        "y": 0.8333
+    },
+    "footprintTiles": {
+        "w": 3,
+        "h": 1
+    },
+    "blocking": true,
+    "occludes": true,
+    "note": "Barraca do Mercador: toldo listrado vermelho/amarelo, balcao com pocoes, barril. Grama da base removida a mao. NPC fica na frente (sul) do balcao ou atras dele (norte, coberto pelo toldo)."
+}

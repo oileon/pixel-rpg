@@ -1,0 +1,160 @@
+{
+  "fusionCost": 3,
+  "familyNames": {
+    "gosma": "Gosmas",
+    "alada": "Aladas",
+    "casco": "Cascos",
+    "flora": "Flora"
+  },
+  "seals": [
+    {
+      "id": "seal_pomi",
+      "monsterId": "pomi",
+      "name": "Selo de Pomi",
+      "element": "water",
+      "family": "gosma",
+      "slots": ["weapon", "armor", "accessory"],
+      "fragmentsRequired": 100,
+      "grades": [
+        { "maxHp": 15 },
+        { "maxHp": 35, "stats": { "vit": 1 } },
+        { "maxHp": 60, "stats": { "vit": 2 } }
+      ],
+      "lore": "Cada Pomi guarda uma gota de orvalho que já foi a paciência de um espírito. Quem a carrega aprende a aguentar firme, como a gosma que quica e sempre volta a sorrir."
+    },
+    {
+      "id": "seal_plumito",
+      "monsterId": "plumito",
+      "name": "Selo de Plumito",
+      "element": "wind",
+      "family": "alada",
+      "slots": ["weapon", "head"],
+      "fragmentsRequired": 100,
+      "grades": [
+        { "flee": 3 },
+        { "flee": 6, "stats": { "agi": 1 } },
+        { "flee": 10, "stats": { "agi": 2 } }
+      ],
+      "lore": "Os Plumitos nascem do vapor que sobe das nuvens quando um espírito do vento suspira. Por isso nunca estão onde a gente mira."
+    },
+    {
+      "id": "seal_cascudo",
+      "monsterId": "cascudo",
+      "name": "Selo de Cascudo",
+      "element": "earth",
+      "family": "casco",
+      "slots": ["armor", "head"],
+      "fragmentsRequired": 100,
+      "grades": [
+        { "def": 3 },
+        { "def": 6, "maxHp": 10 },
+        { "def": 10, "stats": { "vit": 2 } }
+      ],
+      "lore": "Os cristais nas costas do Cascudo são lascas da rocha que segura as ilhas no céu. Ele os protege como quem guarda a própria casa."
+    },
+    {
+      "id": "seal_cogumelim",
+      "monsterId": "cogumelim",
+      "name": "Selo de Cogumelim",
+      "element": "earth",
+      "family": "flora",
+      "slots": ["head", "accessory"],
+      "fragmentsRequired": 100,
+      "grades": [
+        { "maxSp": 10, "stats": { "int": 1 } },
+        { "maxSp": 20, "mdef": 2, "stats": { "int": 2 } },
+        { "maxSp": 35, "mdef": 4, "stats": { "int": 3 } }
+      ],
+      "lore": "Os esporos do Cogumelim guardam sonhos antigos do bosque. Dizem que quem dorme perto de um anel de cogumelos acorda sabendo uma palavra nova."
+    },
+    {
+      "id": "seal_zunzum",
+      "monsterId": "zunzum",
+      "name": "Selo de Zunzum",
+      "element": "wind",
+      "family": "alada",
+      "slots": ["weapon", "accessory"],
+      "fragmentsRequired": 100,
+      "grades": [
+        { "crit": 2 },
+        { "crit": 4, "hit": 3 },
+        { "crit": 7, "hit": 6 }
+      ],
+      "lore": "O Zunzum defende as flores do bosque com um ferrão fino como agulha de costura. A pressa dele vem de uma rajada que nunca aprendeu a parar."
+    },
+    {
+      "id": "seal_musgolento",
+      "monsterId": "musgolento",
+      "name": "Selo de Musgolento",
+      "element": "water",
+      "family": "casco",
+      "slots": ["armor", "accessory"],
+      "fragmentsRequired": 100,
+      "grades": [
+        { "mdef": 3, "maxHp": 10 },
+        { "mdef": 6, "maxHp": 25 },
+        { "mdef": 10, "maxHp": 45 }
+      ],
+      "lore": "O musgo no casco do Musgolento bebe a água dos riachos e a devolve limpa. Ele anda devagar porque carrega o bosque inteiro nas costas."
+    },
+    {
+      "id": "seal_tronco_rei",
+      "monsterId": "tronco_rei",
+      "name": "Selo do Tronco-Rei",
+      "element": "earth",
+      "family": "flora",
+      "slots": ["weapon"],
+      "fragmentsRequired": 100,
+      "grades": [
+        { "atk": 6, "stats": { "str": 1 } },
+        { "atk": 12, "stats": { "str": 2 } },
+        { "atk": 20, "stats": { "str": 3 } }
+      ],
+      "lore": "O Tronco-Rei era a primeira árvore da ilha, plantada por um espírito que já foi embora. A coroa de cogumelos cresce a cada estação que ele espera a volta dele."
+    }
+  ],
+  "resonances": [
+    {
+      "id": "eco_elemental",
+      "name": "Eco Elemental",
+      "description": "2 ou mais Selos do mesmo elemento.",
+      "kind": "element",
+      "minCount": 2,
+      "distinct": false,
+      "bonuses": {
+        "fire": { "atk": 5 },
+        "water": { "maxSp": 10, "mdef": 3 },
+        "earth": { "def": 4, "maxHp": 20 },
+        "wind": { "hit": 4, "flee": 3 }
+      }
+    },
+    {
+      "id": "coro_elemental",
+      "name": "Coro Elemental",
+      "description": "3 ou mais Selos do mesmo elemento (soma com o Eco).",
+      "kind": "element",
+      "minCount": 3,
+      "distinct": false,
+      "bonuses": {
+        "fire": { "atk": 5, "stats": { "str": 2 } },
+        "water": { "maxHp": 30, "maxSp": 15 },
+        "earth": { "def": 4, "stats": { "vit": 2 } },
+        "wind": { "crit": 3, "stats": { "agi": 2 } }
+      }
+    },
+    {
+      "id": "laco_familia",
+      "name": "Laço de Família",
+      "description": "2 ou mais Selos diferentes da mesma família.",
+      "kind": "family",
+      "minCount": 2,
+      "distinct": true,
+      "bonuses": {
+        "gosma": { "maxHp": 25 },
+        "alada": { "hit": 4, "flee": 4 },
+        "casco": { "def": 3, "mdef": 3 },
+        "flora": { "atk": 4, "matk": 4 }
+      }
+    }
+  ]
+}
